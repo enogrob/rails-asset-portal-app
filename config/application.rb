@@ -18,7 +18,11 @@ Bundler.require(*Rails.groups)
 
 module RailsAssetPortalApp
   class Application < Rails::Application
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> 0e8393ce364eb91e678139541f4a2e4ed1d36bb4
     config.generators do |g|
       g.orm             :neo4j
     end
