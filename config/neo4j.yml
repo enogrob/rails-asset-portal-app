@@ -1,0 +1,9 @@
+development:
+  type: bolt
+  url: bolt://neo4j:betoz23@localhost:7687
+test:
+  type: bolt
+  url: http://neo4j:betoz23@localhost:7687
+production:
+  type: bolt
+  url: http://neo4j:betoz23@localhost:7687

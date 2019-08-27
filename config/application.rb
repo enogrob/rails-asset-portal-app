@@ -18,7 +18,7 @@ Bundler.require(*Rails.groups)
 
 module RailsAssetPortalApp
   class Application < Rails::Application
-    
+
     config.generators do |g|
       g.orm             :neo4j
     end
@@ -46,5 +46,7 @@ module RailsAssetPortalApp
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+    config.neo4j.session_type = :bolt
+    config.neo4j.session_path = ENV['NEO4J_URL'] || 'bolt://neo4j:betoz23@localhost:7687'
   end
 end

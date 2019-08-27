@@ -1,0 +1,13 @@
+2019-08-26 13:56:11.997+0000 INFO  ======== Neo4j 3.4.1 ========
+2019-08-26 13:56:12.192+0000 INFO  Starting...
+2019-08-26 13:56:28.275+0000 INFO  Bolt enabled on localhost:6998.
+2019-08-26 13:56:39.339+0000 INFO  Started.
+2019-08-26 13:56:43.298+0000 INFO  Remote interface available at http://localhost:7000/
+2019-08-26 13:57:19.106+0000 INFO  ======== Neo4j 3.4.1 ========
+2019-08-26 13:57:19.292+0000 INFO  Starting...
+2019-08-26 13:57:27.970+0000 INFO  Bolt enabled on localhost:6998.
+2019-08-26 13:57:37.207+0000 INFO  Started.
+2019-08-26 13:57:44.727+0000 INFO  Remote interface available at http://localhost:7000/
+2019-08-26 20:01:07.137+0000 INFO  Neo4j Server shutdown initiated by request
+2019-08-26 20:01:07.193+0000 INFO  Stopping...
+2019-08-26 20:01:07.313+0000 INFO  Stopped.

@@ -45,3 +45,4 @@ end
 
 
 gem 'neo4j', '~> 9.2.0'
+gem "neo4j-rake_tasks", "~> 0.7.19"
