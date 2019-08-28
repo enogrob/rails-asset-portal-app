@@ -31,8 +31,16 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'
+  gem "table_print", "~> 1.5"
+  gem "awesome_print", "~> 1.8"
+  gem "meta_request", "~> 0.7.0"
+  # Use pry-byebug as combination of 'pry' with 'byebug'
+  gem 'pry-byebug'
+  # gem 'railroady'
+  # Use puma as simple fast, threaded and highly server
+  gem 'pry-rails', '~> 0.3.9'
+  gem 'pry-rescue', '~> 1.5'
+  gem 'pry-stack_explorer', '~> 0.4.9'
 end
 
 group :development do
