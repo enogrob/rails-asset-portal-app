@@ -2,9 +2,7 @@
 class Asset
   include Neo4j::ActiveNode
 
-  id_property :code
-  property :title, type: String, default: 'Cog'
-  property :price, type: Integer
-  property :created_at, type: DateTime
-  property :updated_at, type: String
+  property :title
+  has_many :out, :categories, type: :HAS_CATEGORY
+  has_many :both, :see_also_assets, type: :OFTEN_VIEWED_WITH, model_class: :Asset
 end
